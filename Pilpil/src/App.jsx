@@ -16,10 +16,10 @@ function App() {
     <>
 
       <nav className=' w-335 h-22 mb-1 // flex justify-between items-center // bg-[#5a2517] // rounded-t-lg border-2'>
-        <a href="http://localhost:5173/">
+        <Link to="/">
           <img className='w-35 h-20 ml-2  rounded-full border-2 border-solid border-[#260c05]'
           src="https://scontent.fcrd6-1.fna.fbcdn.net/v/t39.30808-6/277805661_351430967001234_5098143100258801312_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=5Nq0DEuW6JIQ7kNvwGI17ya&_nc_oc=AdlFJqxVfSg_5crhQ7XQ4VQhK-t7B8psh3oN5h7uA72t_3ZKf9fC2YY6sF_7smZg5sM&_nc_zt=23&_nc_ht=scontent.fcrd6-1.fna&_nc_gid=ordA3bk5aUt4rfAJq02PFw&oh=00_AfJ6UZ2Qc5vrxBtCdd_757ZjuFAFZ_lHGXk16ICkEjoeIA&oe=6843F1CC" alt="" />
-        </a>
+        </Link >
         <ul className=' flex mr-30 gap-10 text-xl text-[#50d71e] '>
           <li> <Link to="/">Inicio</Link> </li>
           <li> <Link to='/Menu'>Menu</Link> </li>
