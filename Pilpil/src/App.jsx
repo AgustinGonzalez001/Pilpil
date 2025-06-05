@@ -14,7 +14,6 @@ function App() {
 
   return (
     <>
-
       <nav className=' w-335 h-22 mb-1 // flex justify-between items-center // bg-[#5a2517] // rounded-t-lg border-2'>
         <Link to="/">
           <img className='w-35 h-20 ml-2  rounded-full border-2 border-solid border-[#260c05]'

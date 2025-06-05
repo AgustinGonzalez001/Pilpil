@@ -1,5 +1,5 @@
-export const Desayunos =[
-        
+export const Data ={
+    Desayunos:[
         {
             id:1,
             nombre:"Tradicional",
@@ -7,14 +7,13 @@ export const Desayunos =[
             precio:'9.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbOZbG8BDVYlEqDTM0rcGfjl7UcvNzZN59Q&s'
         },
-        {
+          {
             id:2,
             nombre:"Fitness",
             descripcion:'(frutas de estación, yogurt, jugo exprimido, rollito de jamón y queso)',
             precio:'11.000',
             foto:'https://i.pinimg.com/736x/ad/d1/e4/add1e48553dd5626274c566093eace5c.jpg'
-        },
-        {
+        }, {
             id:3,
             nombre:"Americano",
             descripcion:'(infusión, huevo revuelto, jugo exprimido, tostadas, panceta y ensalada de frutas)',
@@ -36,10 +35,8 @@ export const Desayunos =[
             foto:'https://i.pinimg.com/736x/26/97/1a/26971ac0070afaf76cedcfe2017c81e6.jpg'
         },
          
-    ];
-    //Pasteleria
-
-export const Pasteleria =[
+    ],
+    Pasteleria :[
         {
             id:1,
             nombre:"Medialuna",
@@ -95,8 +92,8 @@ export const Pasteleria =[
             precio:'25.600',
             foto:'https://i.blogs.es/55b440/thebakermama_81205818_633645660715372_6231728221309908748_n/450_1000.jpeg'
         },
-]
-export const Tostados =[
+    ],
+    Tostados:[
         {
             id:1,
             nombre:"Clásico ",
@@ -118,9 +115,8 @@ export const Tostados =[
             precio:'8.000',
             foto:'https://img.freepik.com/fotos-premium/bruschetta-italiana-tradicional-aperitivo-pan-tostado-requeson-rucula-jamon_134580-1180.jpg'
         },
-]
-
-export const Cafes =[
+    ],
+    Cafes :[
         {
             id:1,
             nombre:"Expreso",
@@ -244,9 +240,8 @@ export const Cafes =[
             precio:'4.000',
             foto:'https://antitesis.com.ar/wp-content/uploads/2024/01/tazon-vidrio-helado-bocha-helado-vaso-cerveza-detras_737761-1232.jpg'
         },
-]
-
-export const Entradas =[
+    ],
+    Entradas:[
         {
             id:1,
             nombre:"Tuétanos",
@@ -295,9 +290,8 @@ export const Entradas =[
             precio:'8.000',
             foto:'https://kelvinator.com.ar/wp-content/uploads/2015/01/brochetas.jpg'
         },
-]
-//a partir de aca faltan fotos -->
-export const Platos =[
+    ],
+    Platos :[
         {
             id:1,
             nombre:"Chorizo ahumado",
@@ -502,4 +496,7 @@ export const Platos =[
             precio:'12.500',
             foto:'https://cdn.recetasderechupete.com/wp-content/uploads/2021/03/Irish-coffee-2.jpg'
         },
-]
+    ]
+}
+   
+

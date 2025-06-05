@@ -1,6 +1,7 @@
 export default function Lista({props}){
     return(
-          <ul className=" flex flex-wrap items-center justify-center mt-5 gap-5">
+        
+          <ul className=" flex flex-wrap items-center justify-center mt-5 gap-10">
                         {props.map((plato)=>(
                             <div className="max-w-60 flex flex-col items-center gap-2 bg-white text-black rounded-lg" key={plato.id}>
                                 <h2 className="text-lg ">{plato.nombre}</h2>

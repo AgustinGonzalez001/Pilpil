@@ -1,32 +1,22 @@
 import Lista from "../Compoentes/lista";
-import { Desayunos } from "../Data/Data";
-import { Pasteleria } from "../Data/Data";
-import { Tostados } from "../Data/Data";
-import { Cafes } from "../Data/Data";
-import { Entradas } from "../Data/Data";
-import { Platos } from "../Data/Data";
+import { Data } from "../Data/Data";
+import { useState } from "react";
 
 function Menu(){
-    
+    const [stateVariable, setStateFunction] = useState(Data.Desayunos);
+    const [stateMenu, setStateMenu] = useState("Desayunos");
+
     return(
         <div className="w-335 h-auto flex flex-col items-center ">
-            <h1>~~Desayunos~~</h1>
-            <Lista props={Desayunos}></Lista>
-
-            <h1>~~Pasteleria~~</h1>
-            <p>~~(Preguntar por variedad de budines y alfajores)~~</p>
-            <Lista props={Pasteleria}></Lista>
-
-            <h1>~~Tostados~~</h1>
-            <p>~~(Con pan tipo de campo)~~</p>
-            <Lista props={Tostados}></Lista>
-            <h1>~~Cafés~~</h1>
-            <Lista props={Cafes}></Lista>
-            <h1>~~Entradas~~</h1>
-            <Lista props={Entradas}></Lista>
-            <h1>~~Platos pricipales~~</h1>
-            <p>~~(También puede consultar por las sugerencias del día)~~</p>
-            <Lista props={Platos}></Lista>
+            <nav className=' w-335 h-22 mb-1 // flex justify-between items-center // bg-[#5a2517] // rounded-t-lg border-2'>
+                     
+                    <button onClick={() => {setStateFunction(Data.Desayunos), setStateMenu("Desayunos")}}>Desayunos</button>
+                    <button onClick={() => {setStateFunction(Data.Pasteleria), setStateMenu("pasteleria")}}>Pasteleria</button>
+                    <button onClick={() => {setStateFunction(Data.Tostados), setStateMenu("Tostados")}}>Tostados</button>
+                
+                  </nav>
+            <h1>~~{stateMenu}~~</h1>
+            <Lista props={stateVariable}></Lista>    
         </div>
     )
 }
