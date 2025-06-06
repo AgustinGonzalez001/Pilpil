@@ -489,43 +489,43 @@ export const  Data ={
             nombre:"Ensalda de frutas",
             descripcion:'(con crema o helado)',
             precio:'6.500',
-            foto:'https://cdn.elcocinerocasero.com/imagen/paso-receta/1000/2023-07-13-12-51-42/ensalada-mediterranea-paso-4.jpeg'
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi4ofdbEXMr3zTo0e7FA32mRBPx3cSG8HIuRotGeg94zCZuHrEhH6LJUS6Y_C7dZ9X7Vw&usqp=CAU'
         },{
             id:3,
             nombre:"Panqueques",
             descripcion:'(con dulce, manzana al rol mas helado)',
             precio:'6.500',
-            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8LGMPPYk_xyNUU_XNziRkIHURVw773OFYg&s'
+            foto:'https://www.clarin.com/img/2021/09/17/FbAiGd-iZ_1200x630__1.jpg'
         },{
             id:4,
             nombre:"Flan casero ",
             descripcion:'(con dulce de leche o crema)',
             precio:'7.900',
-            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27HaFQIYEDU8XlfzR3sKNuCRIBkz5eGIt0w&s'
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5xSsy24_SicPFY8dml7Dr_gV3aQF_cq1P0w&s'
         },{
             id:5,
             nombre:"Crumble de manzana",
             descripcion:'(con frutos rojos y helado)',
             precio:'8.300',
-            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4dnjZxcKmXpQw1_3IKwluAIKbYVWWol6MtQ&s'
+            foto:'https://mannagelats.wordpress.com/wp-content/uploads/2015/02/mbaapple-pear-crisp2-1-of-1.jpg'
         },{
             id:6,
             nombre:"Helado ",
             descripcion:'(americana con frutos rojos)',
             precio:'6.500',
-            foto:'https://cdn.elcocinerocasero.com/imagen/paso-receta/1000/2023-07-13-12-51-42/ensalada-mediterranea-paso-4.jpeg'
+            foto:'https://i.ytimg.com/vi/t2rjA_pfeWU/maxresdefault.jpg'
         },{
             id:7,
             nombre:"Volcán chocolate",
             descripcion:'(con frutos rojos y helado)',
             precio:'8.500',
-            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8LGMPPYk_xyNUU_XNziRkIHURVw773OFYg&s'
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvCbj1UN_RoVJDgTd0hbMBIpxAbvLmgY-vw&s'
         },{
             id:8,
             nombre:"Volcán de dulce de leche ",
             descripcion:'(con frutos rojos y helado)',
             precio:'8.500',
-            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27HaFQIYEDU8XlfzR3sKNuCRIBkz5eGIt0w&s'
+            foto:'https://i.ytimg.com/vi/_e3YyH-M3N8/maxresdefault.jpg'
         },
         ]
 }
