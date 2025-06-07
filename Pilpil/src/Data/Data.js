@@ -30,7 +30,7 @@ export const  Data ={
             descripcion:'(con infusión ó café con leche y exprimido de naranja)',
             precio:'8.500',
             foto:'https://i.pinimg.com/736x/26/97/1a/26971ac0070afaf76cedcfe2017c81e6.jpg'
-        },],
+        }],
     Pasteleria:[
         {
             id:1,
@@ -80,7 +80,7 @@ export const  Data ={
             descripcion:'(Tartas, budines, tostada con J crudo, Q y rúcula, tostado, medialuna de jamón y queso, exprimidos , infusiones)',
             precio:'25.600',
             foto:'https://i.blogs.es/55b440/thebakermama_81205818_633645660715372_6231728221309908748_n/450_1000.jpeg'
-        },],
+        }],
     Tostados:[
         {
             id:1,
@@ -100,7 +100,7 @@ export const  Data ={
             descripcion:'',
             precio:'8.000',
             foto:'https://img.freepik.com/fotos-premium/bruschetta-italiana-tradicional-aperitivo-pan-tostado-requeson-rucula-jamon_134580-1180.jpg'
-        },],
+        }],
     Cafes:[
         {
             id:1,
@@ -210,7 +210,7 @@ export const  Data ={
             descripcion:'(chocolate en taza, bocha de helado de crema americana, humo solido y cacao)',
             precio:'4.000',
             foto:'https://antitesis.com.ar/wp-content/uploads/2024/01/tazon-vidrio-helado-bocha-helado-vaso-cerveza-detras_737761-1232.jpg'
-        },],
+        }],
     Entradas:[
         {
             id:1,
@@ -254,7 +254,7 @@ export const  Data ={
             descripcion:'(de cherry, morron, cebolla y pollo)',
             precio:'8.000',
             foto:'https://kelvinator.com.ar/wp-content/uploads/2015/01/brochetas.jpg'
-        },],
+        }],
         Platos:[
         {
             id:1,
@@ -313,7 +313,7 @@ export const  Data ={
         },{
             id:10,
             nombre:"Berenjenas a las brasas",
-            descripcion:'(ccompota de tomate, ajo, albahaca, queso gratinado con mix de hojas, cherry, alineada con vinagrata de la casa)',
+            descripcion:'(compota de tomate, ajo, albahaca, queso gratinado con mix de hojas, cherry, alineada con vinagrata de la casa)',
             precio:'13.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqD0hdNPs_SGvZ1JkjQyK8YO0M4MNhuBpsGQ&s'
         },{
@@ -436,7 +436,7 @@ export const  Data ={
             descripcion:'(calabaza y parmesano ó verdura salsa a elección)',
             precio:'12.500',
             foto:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwm0uFcgWTD66m3bZIfJ3GQ2w0i0Y_7SHg2Hg9amHhPdO8Tth_-18Sxt71edSP-Nd-1myS4IGKpTU80Jcnog50QoRha5QzqSe1_iP1R5DAxzPDbJGJAJF-AH1TyODxHBlUTJrtMEzMZjQ/s1600/DSC_7474.jpg'
-        },],
+        }],
     MenuKid:[
         {
             id:1,
@@ -450,7 +450,7 @@ export const  Data ={
             descripcion:'(con fileto)',
             precio:'9.200',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5r9N93JtYpy7XKiAIglFORh_iQ3PjFmzdTw&s'
-        },],
+        }],
     Ensaladas:[
         {
             id:1,
@@ -476,7 +476,7 @@ export const  Data ={
             descripcion:'(mix verdes, cherry, champiñones, frutos rojos, escamas de quinoa y queso zardo)',
             precio:'9.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27HaFQIYEDU8XlfzR3sKNuCRIBkz5eGIt0w&s'
-        },],
+        }],
     Postres:[
         {
             id:1,
@@ -526,8 +526,268 @@ export const  Data ={
             descripcion:'(con frutos rojos y helado)',
             precio:'8.500',
             foto:'https://i.ytimg.com/vi/_e3YyH-M3N8/maxresdefault.jpg'
-        },
-        ]
+        }],
+    VinosTintos:[
+        {
+            id:1,
+            nombre:"Estiba",
+            descripcion:'(Cabernet o Malbec)',
+            precio:'7.700',
+            foto:'https://www.lacoopeencasa.coop/media/lcec/publico/articulos/0/4/6/046513432dab4ba09d0b5e9b173a4c43'
+        },{
+            id:2,
+            nombre:"Portillo",
+            descripcion:'(Cabernet o Malbec)',
+            precio:'8.150',
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwfpNpNC6-bcrnKh1M2cNOuKXCQmVxQutUw&s'
+        },{
+            id:3,
+            nombre:"Alambrado",
+            descripcion:'(Cabernet o Malbec)',
+            precio:'14.500',
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSy_MlwNokNLKySjPPrsGtaYmU1Hyhc-qwHQ&s'
+        },{
+            id:4,
+            nombre:"Norton D. O. C. ",
+            descripcion:'(Cabernet o Malbec)',
+            precio:'15.850',
+            foto:'https://shop.norton.com.ar/cdn/shop/files/Norton-DOC-20233_1000x1000_a335ff72-310d-4362-ae87-4ea53c5b12d9.png?v=1715976248'
+        },{
+            id:5,
+            nombre:"Trumpeter",
+            descripcion:'(Cabernet o Malbec)',
+            precio:'19.690',
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIOC4EvQd4ExZxgYlimoM98VqvikD2yZwZ7w&s'
+        },{
+            id:6,
+            nombre:"Luigi bosca",
+            descripcion:'(Malbec)',
+            precio:'26.100',
+            foto:'https://dcdn-us.mitiendanube.com/stores/005/297/373/products/luigi-bosca-malbec-doc-5a66f6f991a3b056ed17327254168681-1024-1024.png'
+        },{
+            id:7,
+            nombre:"Rutini",
+            descripcion:'(Cabernet o Malbec)',
+            precio:'45.890',
+            foto:'https://rutini.vtexassets.com/arquivos/ids/156611/RutiniColeccion-CabernetMalbec-21301.jpg?v=638566497138370000'
+        },{
+            id:8,
+            nombre:"Prófugos",
+            descripcion:'(Frutos rojos tostado suave)',
+            precio:'12.450',
+            foto:'https://arcordiezb2c.vteximg.com.br/arquivos/ids/172213/Vino-Profugo-Malbec-Frutos-Rojos-750-Cc-1-12377.jpg?v=637914334898130000'
+        },{
+            id:9,
+            nombre:"Prófugos",
+            descripcion:'(Especias tostado intenso)',
+            precio:'11.300',
+            foto:'https://www.ahorramas.com.ar/storage/images/1692041345_7798162670706_02.jpg'
+        },{
+            id:10,
+            nombre:"Oveja Black",
+            descripcion:'(Malbec tostado suave)',
+            precio:'10.000',
+            foto:'https://dcdn-us.mitiendanube.com/stores/850/274/products/8-77eacd05223778bdd217238362422636-1024-1024.png'
+        },{
+            id:11,
+            nombre:"Oveja Black",
+            descripcion:'(Cabernet sauvignon tostado intenso)',
+            precio:'9.900',
+            foto:'https://www.envero.com.ar/image/cache/data/obeja%20black%20%20cabernet-500x500.jpeg'
+        },{
+            id:12,
+            nombre:"Oveja Black",
+            descripcion:'(Red blend malbec 50%, bonarda 50%)',
+            precio:'10.790',
+            foto:'https://elnenearg.vtexassets.com/arquivos/ids/170502-800-auto?v=638685669676670000&width=800&height=auto&aspect=true'
+        },{
+            id:13,
+            nombre:"Oveja Black",
+            descripcion:'(Reserva malbec, frutos negros, chocolate y moras tostadas) ',
+            precio:'12.690',
+            foto:'https://feltonbebidas.com.ar/wp-content/uploads/2024/07/oveja-black-reserva-malbec.jpg'
+        },{
+            id:14,
+            nombre:"Oveja Black",
+            descripcion:'(Gran reserva malbec 46%, 22 bonarda, 20 cabernet franc, 12 petit verdot)',
+            precio:'24.000',
+            foto:'https://dcdn-us.mitiendanube.com/stores/850/274/products/6-67679b6be5edac184517238360685444-480-0.png'
+        },{
+            id:15,
+            nombre:"MR franc Prófugo. El escapista",
+            descripcion:'(3 clones de cabernet franc)',
+            precio:'15.900',
+            foto:'https://acdn-us.mitiendanube.com/stores/001/551/869/products/bd27fdb8-f2ff-4f5b-a56d-f46c2ae88014-90868d2c5782eccdd717013597405009-480-0.jpeg'
+        },{
+            id:16,
+            nombre:"Sensei",
+            descripcion:'(Malbec ahumado)',
+            precio:'14.500',
+            foto:'https://dcdn-us.mitiendanube.com/stores/850/274/products/2-5235458a1bb2b8966717044755135727-480-0.png'
+        }],
+    VinosBlancos:[
+
+        {
+            id:1,
+            nombre:"Norton",
+            descripcion:'(Sauvignon Blanc)',
+            precio:'11.500',
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Pxey6b4IOUR0iu8DfosELCXKq9Si2cv3Fg&s'
+        },{
+            id:2,
+            nombre:"Prófugos",
+            descripcion:'(Chenin Dulce)',
+            precio:'10.000',
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQef5nr01cM61Cgu522nM9l4kNcxKI8OvSI1g&s'
+        },{
+            id:3,
+            nombre:"Oveja Black",
+            descripcion:'(Chardonay)',
+            precio:'10.500',
+            foto:'https://acdn-us.mitiendanube.com/stores/798/865/products/133499126-a081b17a84f075219f17247363290330-1024-1024.jpg'
+        },{
+            id:4,
+            nombre:"Oveja Black",
+            descripcion:'(Chenin dulce)',
+            precio:'11.000',
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbh_oZK2EhylEIyRvQ3WnVLzBER22N5noJug&s'
+        },{
+            id:5,
+            nombre:"Cosecha Tardía ",
+            descripcion:'(Dulce)',
+            precio:'9.900',
+            foto:'https://shop.norton.com.ar/cdn/shop/files/Cosecha_tardia_blanco_-_nueva_etiqueta.png?v=1743015304'
+        },{
+            id:6,
+            nombre:"Nant y Fall",
+            descripcion:'(Riesling)',
+            precio:'54.150',
+            foto:'https://tienda.divinoclub.com.ar/tienda/296-home_default/vinas-del-nant-y-fall-pinot-blanc.jpg'
+        }],
+    VinosRosados:[
+        {
+            id:1,
+            nombre:"Cosecha Tardía",
+            descripcion:'(Dulce) ',
+            precio:'9.900',
+            foto:'https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/productos/b/0000012000/12748.jpg'
+        },{
+            id:2,
+            nombre:"Amalaya",
+            descripcion:'(Malbec o Torrontés)',
+            precio:'8.600',
+            foto:'https://vinotecaligier.com/media/catalog/product/cache/73269a27812eefec516431430aa0b457/b/e/be75759_base.jpg'
+        }],
+    Tragos:[
+        {
+            id:1,
+            nombre:"Branca cola",
+            descripcion:'(Fernet “branca” y gaseosa cola)',
+            precio:'6.000',
+            foto:''
+        },{
+            id:2,
+            nombre:"Branca & soda",
+            descripcion:'(brancamenta ri y soda)',
+            precio:'6.000',
+            foto:''
+        },{
+            id:3,
+            nombre:"Mint tonic ",
+            descripcion:'(branca menta, gaseosa tónica)',
+            precio:'6.000',
+            foto:''
+        },{
+            id:4,
+            nombre:"Pem tonic",
+            descripcion:'(punt e mes, gaseosa tónica)',
+            precio:'4.500',
+            foto:''
+        },{
+            id:5,
+            nombre:"Carpano orange",
+            descripcion:'(carpano rosso, soda, Rodaja naranja)',
+            precio:'4.500',
+            foto:''
+        },{
+            id:6,
+            nombre:"Carpano originale",
+            descripcion:'(carpano rosso, soda, pincho de aceituna)',
+            precio:'4.500',
+            foto:''
+        },{
+            id:7,
+            nombre:"Bianco tonic",
+            descripcion:'(carpano bianco, gaseosa tónica)',
+            precio:'4.500',
+            foto:''
+        },{
+            id:8,
+            nombre:"Caipiroska",
+            descripcion:'(Vodka “sernova” (preguntar por saborizado), limón y azúcar)',
+            precio:'5.000',
+            foto:''
+        },{
+            id:9,
+            nombre:"Campari",
+            descripcion:'',
+            precio:'6.500',
+            foto:''
+        },{
+            id:10,
+            nombre:"Gancia",
+            descripcion:'',
+            precio:'6.000',
+            foto:''
+        },{
+            id:11,
+            nombre:"Gin tonic",
+            descripcion:'(Con café / canela / frutos rojos / Limón / manzana / naranja)',
+            precio:'7.000',
+            foto:''
+        },{
+            id:12,
+            nombre:"Blu Gin tonic",
+            descripcion:'(spirto blu gin, agua tónica, piel de limón)',
+            precio:'6.500',
+            foto:''
+        },{
+            id:13,
+            nombre:"Brisa caribeña",
+            descripcion:'(vodka de coco y ananá, dash de soda, jugo de naranja y cuña de naranja)',
+            precio:'6.000',
+            foto:''
+        },{
+            id:14,
+            nombre:"Whisky",
+            descripcion:'(White Horse)',
+            precio:' 5.900',
+            foto:''
+        },{
+            id:15,
+            nombre:"Whisky",
+            descripcion:'(Chivas Regal)',
+            precio:'8.400',
+            foto:''
+        },{
+            id:16,
+            nombre:"Whisky",
+            descripcion:'(Johnnie Walker Red)',
+            precio:'7.100',
+            foto:''
+        },{
+            id:17,
+            nombre:"Whisky",
+            descripcion:'(Johnnie Walker Black)',
+            precio:'8.250',
+            foto:''
+        },{
+            id:18,
+            nombre:"Whisky",
+            descripcion:'(Glenfiddich)',
+            precio:'8.800',
+            foto:''
+        },]
 }
 
 

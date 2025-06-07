@@ -2,28 +2,57 @@ import Lista from "../Compoentes/lista";
 import { Data } from "../Data/Data";
 import { useState } from "react";
 
+const categorias=[
+    {texto:"Desayunos",
+    lista:Data.Desayunos
+    },
+    {texto:"Pasteleria",
+    lista:Data.Pasteleria
+    },{texto:"Tostados",
+    lista:Data.Tostados
+    },{texto:"Cafes",
+    lista:Data.Cafes
+    },{texto:"Entradas",
+    lista:Data.Entradas
+    },{texto:"Platos",
+    lista:Data.Platos
+    },{texto:"Menu Kid",
+    lista:Data.MenuKid
+    },{texto:"Ensaladas",
+    lista:Data.Ensaladas
+    },{texto:"Postres",
+    lista:Data.Postres
+    },{texto:"Vinos Tintos",
+    lista:Data.VinosTintos
+    },{texto:"Vinos Blancos",
+    lista:Data.VinosBlancos
+    },{texto:"Vinos Rosados",
+    lista:Data.VinosRosados
+    },{texto:"Tragos",
+    lista:Data.Tragos
+    }
+
+]
+
 function Menu(){
     const [stateVariable, setStateFunction] = useState(Data.Desayunos);
     const [stateMenu, setStateMenu] = useState("Desayunos");
 
+    function click(data,texto){
+        setStateFunction(data);
+        setStateMenu(texto);
+    }
+
     return(
-        <div className="w-335 h-auto flex flex-col items-center ">
-            <nav className=' w-335 h-22 mb-1 // flex justify-between items-center // bg-[#5a2517] // rounded-t-lg border-2'>
-                     
-                    <button onClick={() => {setStateFunction(Data.Desayunos), setStateMenu("Desayunos")}}>Desayunos</button>
-                    <button onClick={() => {setStateFunction(Data.Pasteleria), setStateMenu("Pasteleria")}}>Pasteleria</button>
-                    <button onClick={() => {setStateFunction(Data.Tostados), setStateMenu("Tostados")}}>Tostados</button>
-                    <button onClick={() => {setStateFunction(Data.Cafes), setStateMenu("Cafes")}}>Cafes</button>
-                    <button onClick={() => {setStateFunction(Data.Entradas), setStateMenu("Entradas")}}>Entradas</button>
-                    <button onClick={() => {setStateFunction(Data.Platos), setStateMenu("Platos")}}>Platos</button>
-                    <button onClick={() => {setStateFunction(Data.MenuKid), setStateMenu("Menu Kid")}}>Menu Kid</button>
-                    <button onClick={() => {setStateFunction(Data.Ensaladas), setStateMenu("Ensaladas")}}>Ensaladas</button>
-                    <button onClick={() => {setStateFunction(Data.Postres), setStateMenu("Postres")}}>Postres</button>
+            <div className="flex w-335 h-full gap-4">
+                <nav className=' w-40 h-300 mb-1 ml-2 flex flex-col  items-center row-span-3  bg-[#5a2517]  rounded-t-lg border-2'>
+                        {categorias.map( (item) =>
+                            <button className="m-5" onClick={() => click(item.lista,item.texto)}>{item.texto}</button>
+                        )}
+                </nav>
+                <Lista titulo={stateMenu} props={stateVariable}></Lista>    
                 
-                  </nav>
-            <h1 className="w-150 h-18 flex justify-center bg-orange-700 rounded-lg border-3 border-amber-950">~~{stateMenu}~~</h1>
-            <Lista props={stateVariable}></Lista>    
-        </div>
+            </div>
     )
 }
 
