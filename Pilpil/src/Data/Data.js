@@ -40,7 +40,7 @@ export const  Data ={
             foto:'https://www.abc.com.py/resizer/v2/PVBO4DFYMZH2NHZTQPE7H3P7HE.jpg?auth=5391433781a4aae954d987c1a6c20b1a005a85dfba8cc4c7c3c277ee5d97b7d3&width=770&smart=true'
         },{
             id:2,
-            nombre:"Medialunas con jamón y queso ",
+            nombre:"Medialunas con J y Q ",
             descripcion:'(dos unidades)',
             precio:'4.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqmRGP-sKu6KQh4-3WGiNb9x6ajfkDwRUuA&s'
@@ -77,7 +77,7 @@ export const  Data ={
         },{
             id:8,
             nombre:"Brunch para 2 ",
-            descripcion:'(Tartas, budines, tostada con J crudo, Q y rúcula, tostado, medialuna de jamón y queso, exprimidos , infusiones)',
+            descripcion:'(Tartas, budines, tostada con queso, jamon crudo y rúcula, tostado, medialuna de jamón y queso, exprimidos , infusiones)',
             precio:'25.600',
             foto:'https://i.blogs.es/55b440/thebakermama_81205818_633645660715372_6231728221309908748_n/450_1000.jpeg'
         }],
@@ -214,7 +214,7 @@ export const  Data ={
     Entradas:[
         {
             id:1,
-            nombre:"Tuétanos",
+            nombre:"Tuetanos",
             descripcion:'(a las brasas) ',
             precio:'9.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8e9hLJ7g6sxrUozlOJ5v9XTcfLvVCXopgNA&s'
@@ -226,7 +226,7 @@ export const  Data ={
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxeUkhLnQ0YTCG7b5Unju-i7tl1bguc4T4w&s'
         },{
             id:3,
-            nombre:"Faina a las brasas ",
+            nombre:"Faina a las brasas",
             descripcion:'(pera, miel y queso azul)',
             precio:'8.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSJTHeNy6IgY4YjpHr8fvUbqLBEx8pjq7LQ&s'
@@ -684,109 +684,109 @@ export const  Data ={
             nombre:"Branca cola",
             descripcion:'(Fernet “branca” y gaseosa cola)',
             precio:'6.000',
-            foto:''
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQZtaUFydaFC06a2jHG1BrkNqhXRZcBLfsLQ&s'
         },{
             id:2,
             nombre:"Branca & soda",
             descripcion:'(brancamenta ri y soda)',
             precio:'6.000',
-            foto:''
+            foto:'https://www.clarin.com/img/2020/04/07/N-oobYIWz_1200x0__1.jpg'
         },{
             id:3,
             nombre:"Mint tonic ",
             descripcion:'(branca menta, gaseosa tónica)',
             precio:'6.000',
-            foto:''
+            foto:'https://web-app-prod-01.nyc3.cdn.digitaloceanspaces.com/ryf_media/products/b38824b7e6d848537acde69794d40139.jpg'
         },{
             id:4,
             nombre:"Pem tonic",
             descripcion:'(punt e mes, gaseosa tónica)',
             precio:'4.500',
-            foto:''
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaKUuKUe3q-gsw9UGYEeYP5_DSeAycipxnWg&s'
         },{
             id:5,
             nombre:"Carpano orange",
             descripcion:'(carpano rosso, soda, Rodaja naranja)',
             precio:'4.500',
-            foto:''
+            foto:'https://i.pinimg.com/736x/86/ed/73/86ed73c5576c853483c2e7dcad6158ec.jpg'
         },{
             id:6,
             nombre:"Carpano originale",
             descripcion:'(carpano rosso, soda, pincho de aceituna)',
             precio:'4.500',
-            foto:''
+            foto:'https://resizer.glanacion.com/resizer/v2/carpano-I6TL7CDUPBGVZPDUYQJPCIIQ5M.jpg?auth=0e2eab5e725e9adb80beae52987bee6bc22113b03695b6777d7a6e05c013d1b7&width=420&height=280&quality=70&smart=true'
         },{
             id:7,
             nombre:"Bianco tonic",
             descripcion:'(carpano bianco, gaseosa tónica)',
             precio:'4.500',
-            foto:''
+            foto:'https://es.inshaker.com/uploads/cocktail/promo/238/1542205179-Martini_Tonic-promo.jpg'
         },{
             id:8,
             nombre:"Caipiroska",
             descripcion:'(Vodka “sernova” (preguntar por saborizado), limón y azúcar)',
             precio:'5.000',
-            foto:''
+            foto:'https://descorcha.com/img/ybc_blog/post/17380724931473.jpg'
         },{
             id:9,
             nombre:"Campari",
             descripcion:'',
             precio:'6.500',
-            foto:''
+            foto:'https://www.clarin.com/img/2021/05/26/VovFmXIGd_720x0__1.jpg'
         },{
             id:10,
             nombre:"Gancia",
             descripcion:'',
             precio:'6.000',
-            foto:''
+            foto:'https://static.wixstatic.com/media/fc1253_dc6fc0692b2e5bc1a74a70992fd2cb7b.jpg/v1/fill/w_278,h_397,al_c,lg_1,q_80,enc_avif,quality_auto/fc1253_dc6fc0692b2e5bc1a74a70992fd2cb7b.jpg'
         },{
             id:11,
             nombre:"Gin tonic",
             descripcion:'(Con café / canela / frutos rojos / Limón / manzana / naranja)',
             precio:'7.000',
-            foto:''
+            foto:'https://resizer.glanacion.com/resizer/v2/el-gin-tonic-perfecto-es-6AW54ZT7URDZPMXAPF2LIGDLB4.jpg?auth=3c1115c214dd4d0e8fa8843ad79b4c45ae1b7fb9defa2f7b470d81dec2425df5&width=768&quality=70&smart=false'
         },{
             id:12,
             nombre:"Blu Gin tonic",
             descripcion:'(spirto blu gin, agua tónica, piel de limón)',
             precio:'6.500',
-            foto:''
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDlmD5G5SG8KFj7PNN49dPMDTULvFUwluJMw&s'
         },{
             id:13,
             nombre:"Brisa caribeña",
             descripcion:'(vodka de coco y ananá, dash de soda, jugo de naranja y cuña de naranja)',
             precio:'6.000',
-            foto:''
+            foto:'https://es.inshaker.com/uploads/cocktail/hires/626/1537661336-Sea_wolf-highres.jpg'
         },{
             id:14,
             nombre:"Whisky",
             descripcion:'(White Horse)',
             precio:' 5.900',
-            foto:''
+            foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q2ARYSEGYh48SVyFosrgT9c2i5sRTGwZEA&s'
         },{
             id:15,
             nombre:"Whisky",
             descripcion:'(Chivas Regal)',
             precio:'8.400',
-            foto:''
+            foto:'https://i.pinimg.com/736x/52/fa/c7/52fac77072354862ed846d111d16cc70.jpg'
         },{
             id:16,
             nombre:"Whisky",
             descripcion:'(Johnnie Walker Red)',
             precio:'7.100',
-            foto:''
+            foto:'https://i.pinimg.com/736x/f5/ad/fd/f5adfd765686369224e1a6dd9473f3cf.jpg'
         },{
             id:17,
             nombre:"Whisky",
             descripcion:'(Johnnie Walker Black)',
             precio:'8.250',
-            foto:''
+            foto:'https://i.pinimg.com/736x/bc/c7/22/bcc7227369a1e1e45f89265ab00ef1f8.jpg'
         },{
             id:18,
             nombre:"Whisky",
             descripcion:'(Glenfiddich)',
             precio:'8.800',
-            foto:''
+            foto:'https://i.pinimg.com/736x/0a/3f/80/0a3f8053d8226f22b5da9c101be2c2d0.jpg'
         },]
 }
 
