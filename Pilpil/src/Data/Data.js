@@ -3,31 +3,31 @@ export const  Data ={
         {
             id:1,
             nombre:"Tradicional",
-            descripcion:'(infusión, tostadas, queso crema, mermelada, y jugo exprimido)',
+            descripcion:'(Infusión, tostadas, queso crema, mermelada, y jugo exprimido)',
             precio:'9.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbOZbG8BDVYlEqDTM0rcGfjl7UcvNzZN59Q&s'
         },{
             id:2,
             nombre:"Fitness",
-            descripcion:'(frutas de estación, yogurt, jugo exprimido, rollito de jamón y queso)',
+            descripcion:'(Frutas de estación, yogurt, jugo exprimido, rollito de jamón y queso)',
             precio:'11.000',
             foto:'https://i.pinimg.com/736x/ad/d1/e4/add1e48553dd5626274c566093eace5c.jpg'
         },{
             id:3,
             nombre:"Americano",
-            descripcion:'(infusión, huevo revuelto, jugo exprimido, tostadas, panceta y ensalada de frutas)',
+            descripcion:'(Infusión, huevo revuelto, jugo exprimido, tostadas, panceta y ensalada de frutas)',
             precio:'12.000',
             foto:'https://i.pinimg.com/736x/d8/a4/32/d8a432ed772fb8966b331dac4a6ddcd3.jpg'
         },{
             id:4,
             nombre:"Americano 2",
-            descripcion:'(infusión, huevo frito, salchicha alemana, tostada, panceta y jugo exprimido)',
+            descripcion:'(Infusión, huevo frito, salchicha alemana, tostada, panceta y jugo exprimido)',
             precio:'14.000',
             foto:'https://i.pinimg.com/736x/17/c8/8c/17c88c689971d562e1f315b14303b913.jpg'
         },{
             id:5,
             nombre:"Tostadas Francesas",
-            descripcion:'(con infusión ó café con leche y exprimido de naranja)',
+            descripcion:'(Con infusión ó café con leche y exprimido de naranja)',
             precio:'8.500',
             foto:'https://i.pinimg.com/736x/26/97/1a/26971ac0070afaf76cedcfe2017c81e6.jpg'
         }],
@@ -41,13 +41,13 @@ export const  Data ={
         },{
             id:2,
             nombre:"Medialunas con J y Q ",
-            descripcion:'(dos unidades)',
+            descripcion:'(2 unidades)',
             precio:'4.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqmRGP-sKu6KQh4-3WGiNb9x6ajfkDwRUuA&s'
         },{
             id:3,
             nombre:"Tostadas",
-            descripcion:'(con mermelada ó dulce de leche; manteca ó queso crema)',
+            descripcion:'(Con mermelada ó dulce de leche; manteca ó queso crema)',
             precio:'2.900',
             foto:'https://storage.googleapis.com/avena-recipes-v2/agtzfmF2ZW5hLWJvdHIZCxIMSW50ZXJjb21Vc2VyGICAgICa8YQKDA/29-05-2024/6opUmvOEs5V3IWYXI7Q01717025332825.jpeg'
         },{
@@ -65,13 +65,13 @@ export const  Data ={
         },{
             id:6,
             nombre:"Brownie",
-            descripcion:'(bocha de helado de crema americana, dulce de leche, crema y frutos rojos)',
+            descripcion:'(Bocha de helado de crema americana, dulce de leche, crema y frutos rojos)',
             precio:'6.900',
             foto:'https://perucomidas.com/wp-content/uploads/2024/04/brownie-peru-comidas.png'
         },{
             id:7,
             nombre:"Panqueques",
-            descripcion:'(dos unidades con dulce de leche)',
+            descripcion:'(2 unidades con dulce de leche)',
             precio:'5.500',
             foto:'https://cdn.recetasderechupete.com/wp-content/uploads/2021/02/Panqueques-argentinos-1200x828.jpg'
         },{
@@ -85,13 +85,13 @@ export const  Data ={
         {
             id:1,
             nombre:"Clásico ",
-            descripcion:'Jamoón y queso',
+            descripcion:'(Jamoón y queso)',
             precio:'7.000',
             foto:'https://as2.ftcdn.net/jpg/04/81/89/45/1000_F_481894568_l1kENdvCfJq9oTWdH9K2ZrjPHrhdvW3P.jpg'
         },{
             id:2,
             nombre:"Primavera ",
-            descripcion:'(jamón, queso, lechuga, tomate y huevo)',
+            descripcion:'(Jamón, queso, lechuga, tomate y huevo)',
             precio:'8.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9HrQ4rgxSabWaa6DvEmof3r8buJqO_AOpheC2b94YfZ7jCClK-tOUSafImRWnbMDmFg&usqp=CAU'
         },{
@@ -123,7 +123,7 @@ export const  Data ={
         },{
             id:4,
             nombre:"Late / Café con leche",
-            descripcion:'(mitad café negro simple con mitad de leche y espuma)',
+            descripcion:'(Mitad café negro simple con mitad de leche y espuma)',
             precio:'2.500',
             foto:'https://images.ctfassets.net/0e6jqcgsrcye/53teNK4AvvmFIkFLtEJSEx/4d3751dcad227c87b3cf6bda955b1649/Cafe_au_lait.jpg'
         },{
@@ -159,13 +159,13 @@ export const  Data ={
         },{
             id:10,
             nombre:"Caramelo ",
-            descripcion:'(café negro con crema, espuma y dulce de leche)',
+            descripcion:'(Café negro con crema, espuma y dulce de leche)',
             precio:'4.000',
             foto:'https://www.nescafe.com/ar/sites/default/files/2023-04/RecipeHero_CaramelLatte_1066x1066.jpg'
         },{
             id:11,
             nombre:"Jalea de avellana / vainilla",
-            descripcion:'(café negro con crema, espuma y jalea de avellana)',
+            descripcion:'(Café negro con crema, espuma y jalea de avellana)',
             precio:'4.000',
             foto:'https://img.freepik.com/fotos-premium/cafe-moacino-avellana-taza-vidrio-sobre-mesa-madera_171081-2028.jpg'
         },{
@@ -177,7 +177,7 @@ export const  Data ={
         },{
             id:13,
             nombre:"Affogato",
-            descripcion:'(café negro frío con una bocha de helado de crema americana)',
+            descripcion:'(Café negro frío con una bocha de helado de crema americana)',
             precio:'4.000',
             foto:'https://tiendaviaggio.com.ar/cdn/shop/articles/para-blog.jpg?v=1567779506'
         },{
@@ -195,7 +195,7 @@ export const  Data ={
         },{
             id:16,
             nombre:"Chocolate de invierno",
-            descripcion:'(chocolate en taza, ron, canela, crema)',
+            descripcion:'(Chocolate en taza, ron, canela, crema)',
             precio:'4.800',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-bfAlB30RBPU6joFwLmZLPL0S-DEqzd98bQ&s'
         },{
@@ -207,7 +207,7 @@ export const  Data ={
         },{
             id:18,
             nombre:"Chocolate “Pil Pil”",
-            descripcion:'(chocolate en taza, bocha de helado de crema americana, humo solido y cacao)',
+            descripcion:'(Chocolate en taza, bocha de helado de crema americana, humo solido y cacao)',
             precio:'4.000',
             foto:'https://antitesis.com.ar/wp-content/uploads/2024/01/tazon-vidrio-helado-bocha-helado-vaso-cerveza-detras_737761-1232.jpg'
         }],
@@ -215,111 +215,111 @@ export const  Data ={
         {
             id:1,
             nombre:"Tuetanos",
-            descripcion:'(a las brasas) ',
+            descripcion:'(A las brasas) ',
             precio:'9.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8e9hLJ7g6sxrUozlOJ5v9XTcfLvVCXopgNA&s'
         },{
             id:2,
             nombre:"Riñones",
-            descripcion:'(al ajillo con papas)',
+            descripcion:'(Al ajillo con papas)',
             precio:'10.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxeUkhLnQ0YTCG7b5Unju-i7tl1bguc4T4w&s'
         },{
             id:3,
             nombre:"Faina a las brasas",
-            descripcion:'(pera, miel y queso azul)',
+            descripcion:'(Pera, miel y queso azul)',
             precio:'8.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSJTHeNy6IgY4YjpHr8fvUbqLBEx8pjq7LQ&s'
         },{
             id:4,
             nombre:"Provoleta",
-            descripcion:'(mix verdes,cherry a la plancha y 2 pestos alineada con vinagreta de la casa)',
+            descripcion:'(Mix verdes,cherry a la plancha y 2 pestos alineada con vinagreta de la casa)',
             precio:'9.900',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXdpgbWbvX1T4O3wQvZPE041Z1glylSM6Sq_aR-FAiAOObeuj6lRKrf40-6BvntymyjW4&usqp=CAU'
         },{
             id:5,
             nombre:"Hongos portobello",
-            descripcion:'(rellenos con provolone y pesto sobre calabaza anco)',
+            descripcion:'(Rellenos con provolone y pesto sobre calabaza anco)',
             precio:'12.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwh_FSZZKa9fhWYeadsNc-RO6_Ustcohgonkal0cG9yKlG5Afarb6jxbZeQle-H4mnTGg&usqp=CAU'
         },{
             id:6,
             nombre:"Sopa crema del día",
-            descripcion:'(de calabaza o verduras)',
+            descripcion:'(De calabaza o verduras)',
             precio:'7.000',
             foto:'https://i.blogs.es/bdc141/crema-verduras/450_1000.jpg'
         },{
             id:7,
             nombre:"Brocheta",
-            descripcion:'(de cherry, morron, cebolla y pollo)',
+            descripcion:'(De cherry, morron, cebolla y pollo)',
             precio:'8.000',
             foto:'https://kelvinator.com.ar/wp-content/uploads/2015/01/brochetas.jpg'
         }],
-        Platos:[
+    Platos:[
         {
             id:1,
             nombre:"Chorizo ahumado",
-            descripcion:'(con puré de papa y huevo. o con papas españolas, criolla y huevo)',
+            descripcion:'(Con puré de papa y huevo o con papas españolas, criolla y huevo)',
             precio:'14.000',
             foto:'https://www.elamigodelcarnicero.com/wp-content/uploads/2019/05/chorizo-receta.png'
         },{
             id:2,
             nombre:"Chorizo ahumado",
-            descripcion:'(con papas españolas, criolla y huevo)',
+            descripcion:'(Con papas españolas, criolla y huevo)',
             precio:'14.000',
             foto:'https://www.elamigodelcarnicero.com/wp-content/uploads/2019/05/chorizo-receta.png'
         },{
             id:3,
             nombre:"Sándwich de vegetales",
-            descripcion:'(vegetales y queso)',
+            descripcion:'(Vegetales y queso)',
             precio:'16.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHo3KU70wloes6dvfWqesoCTvDC5BjIPTjPQ&s'
         },{
             id:4,
             nombre:"Sándwich de bondiola",
-            descripcion:'(bondiola braseada, desmenuzada con chucrut, pepino y queso)',
+            descripcion:'(Bondiola braseada, desmenuzada con chucrut, pepino y queso)',
             precio:'16.000',
             foto:'https://quem.com.ar/tienda/wp-content/uploads/2020/03/pulledpork.jpg'
         },{
             id:5,
             nombre:"Sandwich de pollo",
-            descripcion:'(pollo braseado, desmenusado y salteado con mostaza cremosa, lechuga, tomate y queso)',
+            descripcion:'(Pollo braseado, desmenusado y salteado con mostaza cremosa, lechuga, tomate y queso)',
             precio:'16.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjsDDdAxDJEfm3grsQpY1Mi_lVBLo3Kmdig&s'
         },{
             id:6,
             nombre:"Club House",
-            descripcion:'(pollo salteado, panceta, queso, tomate, lechuga)',
+            descripcion:'(Pollo salteado, panceta, queso, tomate, lechuga)',
             precio:'16.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMliXqYJm_flOGjskDl1EpHX4oUlrvVrsbaw&s'
         },{
             id:7,
             nombre:"Sándwich de carne",
-            descripcion:'(carne braseada, desmenusada y salteada, con lechuga, tomate y queso)',
+            descripcion:'(Carne braseada, desmenusada y salteada, con lechuga, tomate y queso)',
             precio:'16.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjv7CswJ7obp_r1s4U_MscjAcBXrWYeyehEg&s'
         },{
             id:8,
             nombre:"Pizza a la parrila 4 porciones",
-            descripcion:'(muzzarella, jamon y queso, napo, albaca y cherry)',
+            descripcion:'(Muzzarella, jamon y queso, napo, albaca y cherry)',
             precio:'16.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQ3pWO7JrQR1xVLRqWy2KjbPaECWqLchTPQ&s'
         },{
             id:9,
             nombre:"Omelette",
-            descripcion:'(de jamón y queso; hongos; 4 quesos, con ensalada alineada con vinagrata de la casa)',
+            descripcion:'(De jamón y queso; hongos; 4 quesos, con ensalada alineada con vinagrata de la casa)',
             precio:'10.500',
             foto:'https://img-global.cpcdn.com/recipes/0ab466eb0551b6c2/680x482cq70/omelette-poderoso-foto-principal.jpg'
         },{
             id:10,
             nombre:"Berenjenas a las brasas",
-            descripcion:'(compota de tomate, ajo, albahaca, queso gratinado con mix de hojas, cherry, alineada con vinagrata de la casa)',
+            descripcion:'(Compota de tomate, ajo, albahaca, queso gratinado con mix de hojas, cherry, alineada con vinagrata de la casa)',
             precio:'13.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqD0hdNPs_SGvZ1JkjQyK8YO0M4MNhuBpsGQ&s'
         },{
             id:11,
             nombre:"Vegetales horneados",
-            descripcion:'(sobre pure cremoso de zanahoria)',
+            descripcion:'(Sobre pure cremoso de zanahoria)',
             precio:'12.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxpFGqP4B7XasKyIS5hBerkh-jI2pqg2FmODOMciq76QjCFWVFT5De6xVLtETI92i4CVU&usqp=CAU'
         },{
@@ -331,31 +331,31 @@ export const  Data ={
         },{
             id:13,
             nombre:"Pechuga",
-            descripcion:'(a las brasas con salsa de crema y verdeo con ensalada ó papas cuña)',
+            descripcion:'(A las brasas con salsa de crema y verdeo con ensalada ó papas cuña)',
             precio:'18.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5aDKcG8asY4Om7tG3pMLeUOXr_dD43Vf8movr0KiTlSvlZ4xqg-m6RFP8pdj0IVwL1c&usqp=CAU'
         },{
             id:14,
             nombre:"Lomito dulce",
-            descripcion:'(con puré, hongos y polvo de calabresa)',
+            descripcion:'(Con puré, hongos y polvo de calabresa)',
             precio:'20.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXsVsyQmPQ_mTgerb_f7Lfk0mpD443nLKKw&s'
         },{
             id:15,
             nombre:"Bife a la riojana",
-            descripcion:'(salteado de cebolla, morrón, arveja, huevos y papas cubo)',
+            descripcion:'(Salteado de cebolla, morrón, arveja, huevos y papas cubo)',
             precio:'20.000',
             foto:'https://vocescriticas1.cdn.net.ar/252/vocescriticas1/images/56/02/560211_77465394c8812fd8866c8030e63eafa07dd0319580b83d619feea10a27ce48de/lg.webp'
         },{
             id:16,
             nombre:"Costeleta",
-            descripcion:'(con huevos a la plancha, papas y criolla)',
+            descripcion:'(Con huevos a la plancha, papas y criolla)',
             precio:'18.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKbJjC1xEVT2hiHv5ghJqoWDvciS26IYKaw&s'
         },{
             id:17,
             nombre:"Matambre a la pizza",
-            descripcion:'(con ensalada)',
+            descripcion:'(Con ensalada)',
             precio:'2.800',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFfpX6qWc9B27XnOwT8KQGX__pXCjo0v_JlA&s'
         },{
@@ -385,13 +385,13 @@ export const  Data ={
         },{
             id:22,
             nombre:"Bondiola a las brasas",
-            descripcion:'(con salsa bbq, pure cremoso de batata, manzana y morcilla)',
+            descripcion:'(Con salsa bbq, pure cremoso de batata, manzana y morcilla)',
             precio:'19.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlIXGIpLFnaqYaTwmjR8GyB6wHzHuSDQPAdQ&s'
         },{
             id:23,
             nombre:"Costeleta de cerdo",
-            descripcion:'(con cebolla caramelizada, batatas cubo y manzana a la sidra)',
+            descripcion:'(Con cebolla caramelizada, batatas cubo y manzana a la sidra)',
             precio:'17.000',
             foto:'https://img-global.cpcdn.com/recipes/7b17b85e5ce9a06b/680x482cq90/costeletas-de-cerdo-a-la-barbacoa-c-ensalada-de-manzana-foto-principal.jpg'
         },{
@@ -409,7 +409,7 @@ export const  Data ={
         },{
             id:26,
             nombre:"Pesca a las brasas ",
-            descripcion:'(vegetales horneados con crema de arveja y roquefort)',
+            descripcion:'(Vegetales horneados con crema de arveja y roquefort)',
             precio:'18.000',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ95v0BFbXdVczoqtm1WDtPHRclzQv7S68dg&s'
         },{
@@ -421,19 +421,19 @@ export const  Data ={
         },{
             id:28,
             nombre:"Lasaña mixta ",
-            descripcion:'(calabaza, espinaca, jamón y queso, bolognesa)',
+            descripcion:'(Calabaza, espinaca, jamón y queso, bolognesa)',
             precio:'14.600',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJH7aNHvxkTUcuY1VMVRW2P99AjnFCE1oyaA&s'
         },{
             id:29,
             nombre:"Sorrentinos",
-            descripcion:'(jamón y queso, con salsa a elección)',
+            descripcion:'(Jamón y queso, con salsa a elección)',
             precio:'12.900',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyYK-qxPF7iPy5_t8mgTqAdUEUDcF_xFctL7x_KySwLfQ1XjX1IYxvlXzxOA6nJEFfCRg&usqp=CAU'
         },{
             id:30,
             nombre:"Ravioles ",
-            descripcion:'(calabaza y parmesano ó verdura salsa a elección)',
+            descripcion:'(Calabaza y parmesano ó verdura salsa a elección)',
             precio:'12.500',
             foto:'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwm0uFcgWTD66m3bZIfJ3GQ2w0i0Y_7SHg2Hg9amHhPdO8Tth_-18Sxt71edSP-Nd-1myS4IGKpTU80Jcnog50QoRha5QzqSe1_iP1R5DAxzPDbJGJAJF-AH1TyODxHBlUTJrtMEzMZjQ/s1600/DSC_7474.jpg'
         }],
@@ -441,13 +441,13 @@ export const  Data ={
         {
             id:1,
             nombre:"Milanesa de pollo ",
-            descripcion:'(con puré)',
+            descripcion:'(Con puré)',
             precio:'9.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkNfWsn3B7iRMeRwEtlX1qZ_VE9g3kP0Mh1Q&s'
         },{
             id:1,
             nombre:"Tallarines cinta al huevo ",
-            descripcion:'(con fileto)',
+            descripcion:'(Con fileto)',
             precio:'9.200',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5r9N93JtYpy7XKiAIglFORh_iQ3PjFmzdTw&s'
         }],
@@ -461,19 +461,19 @@ export const  Data ={
         },{
             id:2,
             nombre:"Mediterranea ",
-            descripcion:'(verdes, cherry, cebolla caramelizada, aceituna y queso sardo)',
+            descripcion:'(Mix verdes, cherry, cebolla caramelizada, aceituna y queso sardo)',
             precio:'7.500',
             foto:'https://cdn.elcocinerocasero.com/imagen/paso-receta/1000/2023-07-13-12-51-42/ensalada-mediterranea-paso-4.jpeg'
         },{
             id:3,
             nombre:"Cesar",
-            descripcion:'',
+            descripcion:'(Mix verde, crutones, cherrys, pollo, parmesano y salsa cesar)',
             precio:'8.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8LGMPPYk_xyNUU_XNziRkIHURVw773OFYg&s'
         },{
             id:4,
             nombre:"Pil Pil ",
-            descripcion:'(mix verdes, cherry, champiñones, frutos rojos, escamas de quinoa y queso zardo)',
+            descripcion:'(Mix verdes, cherry, champiñones, frutos rojos, escamas de quinoa y queso zardo)',
             precio:'9.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27HaFQIYEDU8XlfzR3sKNuCRIBkz5eGIt0w&s'
         }],
@@ -481,49 +481,49 @@ export const  Data ={
         {
             id:1,
             nombre:"Queso y dulce",
-            descripcion:'(de membrillo o batata)',
+            descripcion:'(Membrillo o Batata)',
             precio:'5.900',
             foto:'https://www.clarin.com/img/2023/12/11/UEiWwAd-6_720x0__1.jpg'
         },{
             id:2,
             nombre:"Ensalda de frutas",
-            descripcion:'(con crema o helado)',
+            descripcion:'(Con crema o helado)',
             precio:'6.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi4ofdbEXMr3zTo0e7FA32mRBPx3cSG8HIuRotGeg94zCZuHrEhH6LJUS6Y_C7dZ9X7Vw&usqp=CAU'
         },{
             id:3,
             nombre:"Panqueques",
-            descripcion:'(con dulce, manzana al rol mas helado)',
+            descripcion:'(Con dulce, manzana al rol mas helado)',
             precio:'6.500',
             foto:'https://www.clarin.com/img/2021/09/17/FbAiGd-iZ_1200x630__1.jpg'
         },{
             id:4,
             nombre:"Flan casero ",
-            descripcion:'(con dulce de leche o crema)',
+            descripcion:'(Con dulce de leche o crema)',
             precio:'7.900',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5xSsy24_SicPFY8dml7Dr_gV3aQF_cq1P0w&s'
         },{
             id:5,
             nombre:"Crumble de manzana",
-            descripcion:'(con frutos rojos y helado)',
+            descripcion:'(Con frutos rojos y helado)',
             precio:'8.300',
             foto:'https://mannagelats.wordpress.com/wp-content/uploads/2015/02/mbaapple-pear-crisp2-1-of-1.jpg'
         },{
             id:6,
             nombre:"Helado ",
-            descripcion:'(americana con frutos rojos)',
+            descripcion:'(Americana con frutos rojos)',
             precio:'6.500',
             foto:'https://i.ytimg.com/vi/t2rjA_pfeWU/maxresdefault.jpg'
         },{
             id:7,
             nombre:"Volcán chocolate",
-            descripcion:'(con frutos rojos y helado)',
+            descripcion:'(Con frutos rojos y helado)',
             precio:'8.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhvCbj1UN_RoVJDgTd0hbMBIpxAbvLmgY-vw&s'
         },{
             id:8,
             nombre:"Volcán de dulce de leche ",
-            descripcion:'(con frutos rojos y helado)',
+            descripcion:'(Con frutos rojos y helado)',
             precio:'8.500',
             foto:'https://i.ytimg.com/vi/_e3YyH-M3N8/maxresdefault.jpg'
         }],
@@ -688,37 +688,37 @@ export const  Data ={
         },{
             id:2,
             nombre:"Branca & soda",
-            descripcion:'(brancamenta ri y soda)',
+            descripcion:'(Brancamenta ri y soda)',
             precio:'6.000',
             foto:'https://www.clarin.com/img/2020/04/07/N-oobYIWz_1200x0__1.jpg'
         },{
             id:3,
             nombre:"Mint tonic ",
-            descripcion:'(branca menta, gaseosa tónica)',
+            descripcion:'(Branca menta, gaseosa tónica)',
             precio:'6.000',
             foto:'https://web-app-prod-01.nyc3.cdn.digitaloceanspaces.com/ryf_media/products/b38824b7e6d848537acde69794d40139.jpg'
         },{
             id:4,
             nombre:"Pem tonic",
-            descripcion:'(punt e mes, gaseosa tónica)',
+            descripcion:'(Punt e mes, gaseosa tónica)',
             precio:'4.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaKUuKUe3q-gsw9UGYEeYP5_DSeAycipxnWg&s'
         },{
             id:5,
             nombre:"Carpano orange",
-            descripcion:'(carpano rosso, soda, Rodaja naranja)',
+            descripcion:'(Carpano rosso, soda, Rodaja naranja)',
             precio:'4.500',
             foto:'https://i.pinimg.com/736x/86/ed/73/86ed73c5576c853483c2e7dcad6158ec.jpg'
         },{
             id:6,
             nombre:"Carpano originale",
-            descripcion:'(carpano rosso, soda, pincho de aceituna)',
+            descripcion:'(Carpano rosso, soda, pincho de aceituna)',
             precio:'4.500',
             foto:'https://resizer.glanacion.com/resizer/v2/carpano-I6TL7CDUPBGVZPDUYQJPCIIQ5M.jpg?auth=0e2eab5e725e9adb80beae52987bee6bc22113b03695b6777d7a6e05c013d1b7&width=420&height=280&quality=70&smart=true'
         },{
             id:7,
             nombre:"Bianco tonic",
-            descripcion:'(carpano bianco, gaseosa tónica)',
+            descripcion:'(Carpano bianco, gaseosa tónica)',
             precio:'4.500',
             foto:'https://es.inshaker.com/uploads/cocktail/promo/238/1542205179-Martini_Tonic-promo.jpg'
         },{
@@ -748,13 +748,13 @@ export const  Data ={
         },{
             id:12,
             nombre:"Blu Gin tonic",
-            descripcion:'(spirto blu gin, agua tónica, piel de limón)',
+            descripcion:'(Spirto blu gin, agua tónica, piel de limón)',
             precio:'6.500',
             foto:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDlmD5G5SG8KFj7PNN49dPMDTULvFUwluJMw&s'
         },{
             id:13,
             nombre:"Brisa caribeña",
-            descripcion:'(vodka de coco y ananá, dash de soda, jugo de naranja y cuña de naranja)',
+            descripcion:'(Vodka de coco y ananá, dash de soda, jugo de naranja y cuña de naranja)',
             precio:'6.000',
             foto:'https://es.inshaker.com/uploads/cocktail/hires/626/1537661336-Sea_wolf-highres.jpg'
         },{
