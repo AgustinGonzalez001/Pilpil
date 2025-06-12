@@ -1,13 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Iconos from './assets/Iconos'
 import './App.css'
 
 import { Link,Routes,Route } from "react-router"
-import Inicio from './Paginas/Inicio'
-import Menu from './Paginas/Menu'
-import Delivery from './Paginas/Delivery'
+import Inicio from './Paginas/Inicio.jsx'
+import Menu from './Paginas/Menu.jsx'
+import CalendarioReserva from './Paginas/Calendario.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,22 +21,22 @@ function App() {
         
         <Iconos/>
 
-        <ul className=' flex mr-30 gap-10 text-xl text-[#50d71e] '>
+        <ul className=' flex mr-30 gap-10 text-xl text-[#ff8400c7] underline decoration-wavy '>
           <li> <Link to="/">Inicio</Link> </li>
           <li> <Link to='/Menu'>Menu</Link> </li>
-          <li> <Link to='/Delivery'>Delivery</Link> </li>
+          <li> <Link to='/Calendario'>Calendario de reservas</Link> </li>
         </ul>
       </nav>
       <Routes>
         <Route path='/' element={<Inicio/>}/>
         <Route path='/Menu' element={<Menu/>}/>
-        <Route path='/Delivery' element={<Delivery/>}/>
+        <Route path='/Calendario' element={<CalendarioReserva/>}/>
       </Routes>
-      <div className=' w-335 h-22  bg-[#6b210be0]  flex justify-center items-center  mt-1 gap-5 rounded-b-lg border-3 border-amber-950'>
-        <p className='text-lg font-serif'>Direccion: <a href="https://www.google.com.ar/maps/place/PilPil+-+Sabores+de+la+Patagonia/@-42.9122924,-71.3217581,18.5z/data=!4m6!3m5!1s0x961dac39f2f388bf:0x95ae6fc966783ec4!8m2!3d-42.9119874!4d-71.3214166!16s%2Fg%2F11hbnf5cm5?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Sarmiento 799, Esquel, Chubut </a>//</p>
-        <p className='text-lg font-serif'>Nuemro de contacto: 02945 45-1127 //</p>
-        <p className='text-lg font-serif'>Correo elctronico: pilpil@gocla.com.ar //</p>
-        <p className='text-lg font-serif'>Redes sociales: <a href="https://www.facebook.com/pilpilesquel/">Facebock</a></p>
+
+      <div className=' w-335 h-22  bg-[#6b210be0]  flex justify-center items-center  mt-1 gap-20 rounded-b-lg border-3 border-amber-950'>
+        <p className='text-lg font-serif'>Direccion: <a href="https://www.google.com.ar/maps/place/PilPil+-+Sabores+de+la+Patagonia/@-42.9122924,-71.3217581,18.5z/data=!4m6!3m5!1s0x961dac39f2f388bf:0x95ae6fc966783ec4!8m2!3d-42.9119874!4d-71.3214166!16s%2Fg%2F11hbnf5cm5?hl=es&entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">Sarmiento 799, Esquel, Chubut </a></p>
+        <p className='text-lg font-serif'>Nuemro de contacto: 02945 45-1127 </p>
+        <p className='text-lg font-serif'>Correo elctronico: pilpil@gocla.com.ar </p>
       </div>
       
     </>

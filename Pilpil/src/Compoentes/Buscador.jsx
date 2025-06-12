@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Data } from "../Data/Data.js";
 import Lista from "./lista.jsx";
-import Menu from "../Paginas/Menu.jsx";
 
 const Buscador = () => {
     const [comidas, setComidas] = useState('');
