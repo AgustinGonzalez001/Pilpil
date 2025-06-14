@@ -1,8 +1,12 @@
 import { useState } from 'react';
+import Reservar from './Reservacion.jsx';
+import {createContext, useContext } from 'react';
+import React from 'react';
+
 
 const CalendarioReserva = () => {
   const [fecha, setFecha] = useState(new Date());
-  const [diaSeleccionado, setDiaSeleccionado] = useState(null);
+  const diaSeleccionado = new Date();
 
   const diasSemana = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
   const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
@@ -21,7 +25,7 @@ const CalendarioReserva = () => {
       const dia = new Date(fecha.getFullYear(), fecha.getMonth(), i);
       dias.push({
         dia: i,
-        deshabilitado: dia < hoy,
+        deshabilitado: dia <= hoy,
       });
     }
 
@@ -30,7 +34,8 @@ const CalendarioReserva = () => {
 
   const seleccionarDia = (dia) => {
     if (!dia.deshabilitado) {
-      setDiaSeleccionado(dia.dia);
+      diaSeleccionado.setDate(dia)
+      setFecha(diaSeleccionado)
     }
   };
 
@@ -45,37 +50,40 @@ const CalendarioReserva = () => {
   };
 
   return (
-    <div className="h-105 w-100 p-3 bg-amber-800 flex flex-col text-center gap-2 border-4 border-double border-black rounded-lg">
-      <div className="flex justify-around mt-5 ">
-        <button onClick={() => cambiarMes('anterior')}>{'<<'}</button>
-        <h2 className='text-xl'>{meses[fecha.getMonth()]} {fecha.getFullYear()}</h2>
-        <button onClick={() => cambiarMes('siguiente')}>{'>>'}</button>
-      </div>
-      <div className='flex gap-7'>
-        {diasSemana.map((dia, index) => (
-          <div key={index}>{dia}</div>
-        ))}
-      </div>
-      <div className="grid grid-cols-7 gap-2 ">
-        {obtenerDiasMes().map((dia, index) => (
-          <div className='h-10 w-10 text-center flex items-center justify-center rounded-sm cursor-pointer border-1 border-solid border-black rounded-lg'
+    <div className='flex justify-around items-center'>
+      <div className="h-105 w-100 p-3 bg-[#fff] flex flex-col text-center text-black gap-2 border-4 border-double border-black rounded-lg">
+        <div className="flex justify-around mt-5 ">
+          <button className='bg-blue-500 ' onClick={() => cambiarMes('anterior')}>{'<<'}</button>
+          <h2 className='text-xl'>{meses[fecha.getMonth()]} {fecha.getFullYear()}</h2>
+          <button className='bg-blue-500 ' onClick={() => cambiarMes('siguiente')}>{'>>'}</button>
+        </div>
+        <div className='flex gap-7'>
+          {diasSemana.map((dia, index) => (
+            <div key={index}>{dia}</div>
+          ))}
+        </div>
+        <div className="grid grid-cols-7 gap-2 ">
+          {obtenerDiasMes().map((dia, index) => (
+            <div className='h-10 w-10 text-center flex items-center justify-center rounded-sm cursor-pointer border-1 border-solid border-black rounded-lg'
             key={index}
             style={{
-              backgroundColor: dia.dia === diaSeleccionado ? 'lightblue' : dia.deshabilitado ? 'gray' : '',
+              backgroundColor: dia.dia === diaSeleccionado ? 'green' : dia.deshabilitado ? 'gray' : '',
               cursor: dia.deshabilitado || dia.dia === null? 'not-allowed' : 'pointer',
               visibility: dia.dia === null ? 'hidden':'visible'
             }}
-            onClick={() => seleccionarDia(dia)}
-          >
-            {dia.dia}
-          </div>
-        ))}
+            onClick={() => seleccionarDia(dia.dia)}
+            >
+              {dia.dia}
+            </div>
+          ))}
+        </div>
       </div>
-      {diaSeleccionado && (
-        <p className='bg-orange-500 rounded-sm'>Día seleccionado: {diaSeleccionado} de {meses[fecha.getMonth()]} de {fecha.getFullYear()}</p>
-      )}
+      <Reservar value={fecha}/>
     </div>
+
   );
 };
 
 export default CalendarioReserva;
+
+// fecha={diaSeleccionado.toLocaleString()}
