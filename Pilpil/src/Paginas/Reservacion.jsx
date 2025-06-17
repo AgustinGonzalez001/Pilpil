@@ -31,7 +31,6 @@ const Reservar = (props) => {
           <span>Su reserva sera: {props.value.getDate()} / {props.value.getMonth()} / {props.value.getFullYear()}</span>
         </label>
         <button className="submit" >Reservar</button>
-        
       </form>
     </StyledWrapper>
   );

@@ -14,6 +14,5 @@ export default function Lista({titulo, props}){
                                 ))}
                     </ul>
             </div>
-         
     )
 }
