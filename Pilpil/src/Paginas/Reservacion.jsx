@@ -3,6 +3,22 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Reservar = (props) => {
+  const [fecha, setFecha] = useState(new Date());
+  
+  const fechaMinima = fecha.toISOString().split("T")[0];
+  
+  const [horario, setHorario] = useState('');
+  const [error, setError] = useState('');
+  const handleHorarioChange = (event) => {
+    const nuevoHorario = event.target.value;
+    setHorario(nuevoHorario);
+    if (horario <= "09:00" && horario >= "00:00") {
+      setError('El horario de atencion al publico es de 9:00 a 00:00.');
+    } else {
+      setError('');
+    }
+  };
+
   return (
     <StyledWrapper>
       <form className="form">
@@ -10,32 +26,35 @@ const Reservar = (props) => {
         <p className="message">Complete los datos nesesarios para su reserva. </p>
         <div className="flex">
           <label>
-            <input required placeholder type="text" className="input" />
+            <input required placeholder type="text" className="input bg-[#5a2517e3]" />
             <span>Nombre</span>
           </label>
           <label>
-            <input required placeholder type="text" className="input" />
+            <input required placeholder type="text" className="input bg-[#5a2517e3]" />
             <span>Apellido</span>
           </label>
         </div>  
         <label>
-          <input required placeholder type="text" className="input" />
+          <input required placeholder type="text" className="input bg-[#5a2517e3]" />
           <span>Numero telefonico</span>
         </label> 
         <label>
-          <input required placeholder type="text" className="input" />
+          <input required placeholder type="text" className="input bg-[#5a2517e3]" />
           <span>numero de personas</span>
         </label>
         <label>
-          <input required placeholder type="text" className="input" />
-          <span>Su reserva sera: {props.value.getDate()} / {props.value.getMonth()} / {props.value.getFullYear()}</span>
+          <input  type="date" min={fechaMinima} className="input bg-[#5a2517e3] " />
+        </label>
+        <label>
+          <input  type="time" value={horario} min="09:00" max="00:00" onChange={handleHorarioChange} className="input bg-[#5a2517e3] " />
+          {error && <p style={{ color: 'red' }}>{error}</p>}
         </label>
         <button className="submit" >Reservar</button>
       </form>
     </StyledWrapper>
   );
 }
-
+//Su reserva sera: {props.value.getDate()} / {props.value.getMonth()} / {props.value.getFullYear()}
 const StyledWrapper = styled.div`
   .form {
     display: flex;
@@ -111,9 +130,9 @@ const StyledWrapper = styled.div`
 
   .form label .input {
     width: 100%;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
     outline: 0;
-    border: 1px solid rgba(105, 105, 105, 0.397);
+    border: 1px solid rgba(255, 0, 0, 0.4);
     border-radius: 10px;
     color:black
   }
