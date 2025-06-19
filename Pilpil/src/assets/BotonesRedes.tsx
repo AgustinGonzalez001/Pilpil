@@ -5,7 +5,7 @@ import { BiSolidMap } from "react-icons/bi";
 const BotonesRedes = () => {
   return (
       
-    <div className='mr-70'>
+    <div className='w-auto md:mr-70 mb-2 '>
       <StyledWrapper>
         <ul className="wrapper">
           <a className="icon facebook" href='https://www.facebook.com/pilpilesquel/?locale=es_LA'>

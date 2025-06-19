@@ -40,9 +40,9 @@ function Menu(){
     return(
         <div className="">
     
-            <div className="flex w-335 h-full gap-4">
+            <div className="w-100 flex md:w-335 h-full gap-4">
 
-                <nav className=' w-40 h-300 mb-1 ml-2 flex flex-col  items-center row-span-3  bg-[#5a2517]  rounded-t-lg border-2'>
+                <nav className='w-40 h-50 md:w-40 md:h-300 mb-1 ml-2 flex flex-col  items-center row-span-3  bg-[#5a2517]  rounded-t-lg border-2'>
                        {categorias}
                 </nav>
                 {<Lista titulo={stateMenu} props={stateVariable}></Lista>}
