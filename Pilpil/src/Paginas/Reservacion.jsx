@@ -1,6 +1,7 @@
 import { useContext, useState } from 'react';
-import React from 'react';
 import styled from 'styled-components';
+import DateTimePickerOpenTo from '../assets/FechaHora';
+
 
 const Reservar = (props) => {
   const [fecha, setFecha] = useState(new Date());
@@ -20,6 +21,8 @@ const Reservar = (props) => {
   };
 
   return (
+    <div>
+
     <StyledWrapper>
       <form className="form">
         <p className="title">Para reservas </p>
@@ -45,13 +48,13 @@ const Reservar = (props) => {
         <label>
           <input  type="date" min={fechaMinima} className="input bg-[#5a2517e3] " />
         </label>
-        <label>
-          <input  type="time" value={horario} min="09:00" max="00:00" onChange={handleHorarioChange} className="input bg-[#5a2517e3] " />
-          {error && <p style={{ color: 'red' }}>{error}</p>}
-        </label>
+      
+        <DateTimePickerOpenTo />
+        
         <button className="submit" >Reservar</button>
       </form>
     </StyledWrapper>
+    </div>
   );
 }
 //Su reserva sera: {props.value.getDate()} / {props.value.getMonth()} / {props.value.getFullYear()}
@@ -189,3 +192,4 @@ const StyledWrapper = styled.div`
   }`;
 
 export default Reservar;
+
