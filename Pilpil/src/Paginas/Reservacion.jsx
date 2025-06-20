@@ -57,7 +57,6 @@ const Reservar = (props) => {
     </div>
   );
 }
-//Su reserva sera: {props.value.getDate()} / {props.value.getMonth()} / {props.value.getFullYear()}
 const StyledWrapper = styled.div`
   .form {
     display: flex;
