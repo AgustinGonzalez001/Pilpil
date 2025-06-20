@@ -41,7 +41,7 @@ function Menu(){
         <div className="w-30 sm
         :w-100">
     
-            <div className="flex md:w-335 h-full gap-4">
+            <div className="flex md:w-335 h-full w-full gap-4">
                  
                
                 <nav className='w-150 h-280 md:w-70 md:h-280 mb-1 ml-2 flex flex-col  items-center md:row-span-3  bg-[#5a2517]  rounded-t-lg border-2'>

@@ -1,52 +1,63 @@
 import { useContext, useState } from 'react';
-import React from 'react';
 import styled from 'styled-components';
+import DateTimePickerOpenTo from '../assets/FechaHora';
 
 
-export default function Calendario(props){
+const Reservar = (props) => {
+  const [fecha, setFecha] = useState(new Date());
+  
+  const fechaMinima = fecha.toISOString().split("T")[0];
+  
+  const [horario, setHorario] = useState('');
+  const [error, setError] = useState('');
+  const handleHorarioChange = (event) => {
+    const nuevoHorario = event.target.value;
+    setHorario(nuevoHorario);
+    if (horario <= "09:00" && horario >= "00:00") {
+      setError('El horario de atencion al publico es de 9:00 a 00:00.');
+    } else {
+      setError('');
+    }
+  };
+
   return (
-    <div className='flex '>
-      <StyledWrapper>
-        <div className='md:flex '>
-        <form className="m-10 form">
-          <p className="title">Para reservas </p>
-          <p className="message">Complete los datos nesesarios para su reserva. </p>
-          <div className="flex">
-            <label>
-              <input required placeholder type="text" className="input" />
-              <span>Nombre</span>
-            </label>
-            <label>
-              <input required placeholder type="text" className="input" />
-              <span>Apellido</span>
-            </label>
-          </div>  
+    <div>
+
+    <StyledWrapper>
+      <form className="form">
+        <p className="title">Para reservas </p>
+        <p className="message">Complete los datos nesesarios para su reserva. </p>
+        <div className="flex">
           <label>
-            <input required placeholder type="text" className="input" />
-            <span>Numero telefonico</span>
-          </label> 
-          <label>
-            <input required placeholder type="text" className="input" />
-            <span>numero de personas</span>
+            <input required placeholder type="text" className="input bg-[#5a2517e3]" />
+            <span>Nombre</span>
           </label>
           <label>
-            <input  type="date" className="input" />
+            <input required placeholder type="text" className="input bg-[#5a2517e3]" />
+            <span>Apellido</span>
           </label>
-          <button className="submit" >Reservar</button>
-        </form>
+        </div>  
+        <label>
+          <input required placeholder type="text" className="input bg-[#5a2517e3]" />
+          <span>Numero telefonico</span>
+        </label> 
+        <label>
+          <input required placeholder type="text" className="input bg-[#5a2517e3]" />
+          <span>numero de personas</span>
+        </label>
+        <label>
+          <input  type="date" min={fechaMinima} className="input bg-[#5a2517e3] " />
+        </label>
+      
+        <DateTimePickerOpenTo />
         
-        <iframe
-        className='w-85 h-100 m-10 md:mt-20 md:h-100 md:w-100'
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d250.27251899704368!2d-71.32164336653881!3d-42.912050947977775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961dac39f2f388bf%3A0x95ae6fc966783ec4!2sPilPil%20-%20Sabores%20de%20la%20Patagonia!5e0!3m2!1ses!2sar!4v1750206695349!5m2!1ses!2sar"
-         >
-      </iframe>
-      </div>
-      </StyledWrapper>
+        <button className="submit" >Reservar</button>
+      </form>
+    </StyledWrapper>
     </div>
   );
 }
-
-
+//Su reserva sera: {props.value.getDate()} / {props.value.getMonth()} / {props.value.getFullYear()}
 const StyledWrapper = styled.div`
   .form {
     display: flex;
@@ -122,9 +133,9 @@ const StyledWrapper = styled.div`
 
   .form label .input {
     width: 100%;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
     outline: 0;
-    border: 1px solid rgba(105, 105, 105, 0.397);
+    border: 1px solid rgba(255, 0, 0, 0.4);
     border-radius: 10px;
     color:black
   }
@@ -179,3 +190,6 @@ const StyledWrapper = styled.div`
       opacity: 0;
     }
   }`;
+
+export default Reservar;
+
