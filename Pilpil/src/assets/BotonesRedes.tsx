@@ -5,9 +5,8 @@ import { BiSolidMap } from "react-icons/bi";
 const BotonesRedes = () => {
   return (
       
-    <div className='w-auto md:mr-70 mb-2 '>
       <StyledWrapper>
-        <ul className="wrapper">
+        <ul className="wrapper ml-5 md:ml-10 flex aling-center">
           <a className="icon facebook" href='https://www.facebook.com/pilpilesquel/?locale=es_LA'>
             <span className="tooltip">Facebook</span>
             <svg viewBox="0 0 320 512" height="1.2em" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -26,7 +25,7 @@ const BotonesRedes = () => {
           </a>
         </ul>
       </StyledWrapper>
-    </div>
+
   );
 }
 
@@ -34,8 +33,6 @@ const StyledWrapper = styled.div`
   .wrapper {
     display: inline-flex;
     list-style: none;
-    height: 120px;
-    width: 100%;
     padding-top: 40px;
     font-family: "Poppins", sans-serif;
     justify-content: center;

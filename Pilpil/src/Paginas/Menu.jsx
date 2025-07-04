@@ -10,7 +10,7 @@ function Menu(){
     
     const categorias=[]
       Object.keys(Data).forEach((categoria)=>{
-            categorias.push(<button className="m-5 bg-black" onClick={() => click(Data[categoria],categoria, window.scrollTo({top:0, behavior: 'smooth',}))}>{categoria}</button>)   
+            categorias.push(<button className="m-4 bg-black" onClick={() => click(Data[categoria],categoria, window.scrollTo({top:0, behavior: 'smooth',}))}>{categoria}</button>)   
             });
 
         const buscar = (comidas)=>{
@@ -40,22 +40,23 @@ function Menu(){
     return(
         <div className="">
     
-            <div className="w-100 flex md:w-335 h-full gap-4">
+            <div className="w-100 flex md:w-35 md:-h-500 h-700 gap-4">
 
-                <nav className='w-40 h-50 md:w-40 md:h-300 mb-1 ml-2 flex flex-col  items-center row-span-3  bg-[#5a2517]  rounded-t-lg border-2'>
+                <nav className='md:mt-10 md:ml-10 ml-3 mt-25 md:mt-10 w-40 h-250 md:w-60 md:h-255 mb-1 flex flex-col  items-center row-span-3  bg-[#5a2517]  rounded-t-lg border-2'>
                        {categorias}
                 </nav>
-                {<Lista titulo={stateMenu} props={stateVariable}></Lista>}
-                
-                <div className="h-15 flex flex-col items-end">
-                    <form onSubmit={handleSubmit}>
-                        <input className=" w-65 h-15 bg-orange-900 text-center border-solid border-2 border-black mr-5" 
+                {
+                <div className="h-15 w-15 md:h-150 md:w-150 ">
+                    <form className="md:ml-120" onSubmit={handleSubmit}>
+                        <input className=" w-46 h-15 md:mr-60 md:w-65 md:h-15 bg-orange-900 text-center border-solid border-2 border-black" 
                         type=""
                         value={comidas}
                         onChange={(e)=>setComidas(e.target.value)}
                         placeholder="Buscar comidas..."/>
                     </form>
-                </div>
+                    <Lista titulo={stateMenu} props={stateVariable}></Lista>
+                </div>}
+                
             </div>
         </div>
     )
