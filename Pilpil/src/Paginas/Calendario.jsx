@@ -1,4 +1,4 @@
-import Reservar from "./Reservacion";
+import Reservar from "./Reservacion.tsx";
 
 
 const CalendarioReserva = () => {
