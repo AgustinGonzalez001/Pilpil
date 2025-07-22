@@ -10,7 +10,7 @@ function Menu(){
     
     const categorias=[]
       Object.keys(Data).forEach((categoria)=>{
-            categorias.push(<button className="m-4 bg-black" onClick={() => click(Data[categoria],categoria, window.scrollTo({top:0, behavior: 'smooth',}))}>{categoria}</button>)   
+            categorias.push(<button className="m-4 bg-white text-black" onClick={() => click(Data[categoria],categoria, window.scrollTo({top:0, behavior: 'smooth',}))}>{categoria}</button>)   
             });
 
         const buscar = (comidas)=>{
